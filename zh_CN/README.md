@@ -1,10 +1,10 @@
-# Greenfield Whitepaper
+# Greenfield白皮书
 
 The goal of the BNB Greenfield is to unleash the power of decentralized blockchain and storage technology on data ownership and data economy.
 
 BNB Greenfield is not only a new blockchain in BNB but also an infrastructure and ecosystem targeting to facilitate the decentralized data economy. It tries to achieve it by easing the process to store and manage data access and linking data ownership with the massive DeFi context of BSC.
 
-It focuses on 3 parts that differ from existing centralized and decentralized storage systems:
+它专注于与现有的中心化和去中心化存储系统不同的三点：
 
 - It enables Ethereum-compatible addresses to create and manage both data and token assets.
 
