@@ -90,7 +90,7 @@ BNB Greenfield不仅是BNB中的新区块链，还是一个基础设施和生态
     - [16.1 代币经济学](./part3.md#161-token-economics)
     - [16.2 共识及验证器的选举](./part3.md#162-consensus-and-validator-election)
     - [16.3 治理交易](./part3.md#163-governance-transactions)
-      - [16.3.1 创建和设置验证器](./part3.md#1631-create-and-edit-validator)
+      - [16.3.1 创建和设置验证器](./part3.md#163-governance-transactions)
       - [16.3.2 抵押奖励的分配](./part3.md#1632-staking-reward-distributio-n)
       - [16.3.3 创建存储提供器](./part3.md#1633-create-storage-provider)
       - [16.3.4 移除存储提供器](./part3.md#1634-remove-storage-provider)
@@ -123,49 +123,49 @@ BNB Greenfield不仅是BNB中的新区块链，还是一个基础设施和生态
       - [21.2.1 抵押和提币](./part3.md#2121-deposit-and-withdrawal)
       - [21.2.2 流式支付](./part3.md#2122-payment-stream)
       - [21.2.3 强制结算](./part3.md#2123-forced-settlement)
-      - [21.2.4 Payment Account](./part3.md#2124-payment-account)
-      - [21.2.5 Account Freeze and Resume](./part3.md#2125-account-freeze-and-resume)
-      - [21.2.6 Storage Fee Price and Adjustment](./part3.md#2126-storage-fee-price-and-adjustment)
-  - [22 Cross-Chain Models](./part3.md#22-cross-chain-models)
-    - [22.1 Communication Channels and Packages](./part3.md#221-communication-channels-and-packages)
-      - [22.1.1 Vote Poll](./part3.md#2211-vote-poll)
-      - [22.1.2 Channel and Sequence](./part3.md#2212-channel-and-sequence)
-      - [22.1.3 Reliability Protocol](./part3.md#2213-reliability-protocol)
-      - [22.1.4 Validator Update](./part3.md#2214-validator-update)
-    - [22.2 Economic](./part3.md#22-2-economic)
-      - [22.2.1 Fee and Reward of Cross-Chain Packages](./part3.md#2221-fee-and-reward-of-cross-chain-packages)
-      - [22.2.2 Race to Deliver Cross-Chain Packages](./part3.md#2222-race-to-deliver-cross-chain-packages)
-      - [22.2.3 Callbacks and Limited Gas](./part3.md#2223-callbacks-and-limited-gas)
-      - [22.2.4 Cross-Chain Infrastructure Contracts on BSC](./part3.md#2224-cross-chain-infrastructure-contracts-on-bsc)
-    - [22.3 Error and Failure Handling](./part3.md#223-error-and-failure-handling)
-  - [23 SP APIs](./part3.md#23-sp-apis)
-    - [23.1 Universal Endpoint](./part3.md#231-universal-endpoint)
-      - [23.1.1 URI Standard](./part3.md#2311-uri-standard)
+      - [21.2.4 支付账户](./part3.md#2124-payment-account)
+      - [21.2.5 账户冻结和恢复](./part3.md#2125-account-freeze-and-resume)
+      - [21.2.6 存储费用计价和调整](./part3.md#2126-storage-fee-price-and-adjustment)
+  - [22 跨链模型](./part3.md#22-cross-chain-models)
+    - [22.1 通信通道和数据包](./part3.md#221-communication-channels-and-packages)
+      - [22.1.1 投票调查](./part3.md#2211-vote-poll)
+      - [22.1.2 通道和序列](./part3.md#2212-channel-and-sequence)
+      - [22.1.3 可靠性协议](./part3.md#2213-reliability-protocol)
+      - [22.1.4 验证器的更新](./part3.md#2214-validator-update)
+    - [22.2 经济学](./part3.md#22-2-economic)
+      - [22.2.1 跨链数据包的费用和奖励](./part3.md#2221-fee-and-reward-of-cross-chain-packages)
+      - [22.2.2 跨链数据包的交付竞争](./part3.md#2222-race-to-deliver-cross-chain-packages)
+      - [22.2.3 回调和Gas限制](./part3.md#2223-callbacks-and-limited-gas)
+      - [22.2.4 BSC上的跨链基础设施合约](./part3.md#2224-cross-chain-infrastructure-contracts-on-bsc)
+    - [22.3 错误和失败的处理](./part3.md#223-error-and-failure-handling)
+  - [23 SP API](./part3.md#23-sp-apis)
+    - [23.1 通用终端](./part3.md#231-universal-endpoint)
+      - [23.1.1 URI标准](./part3.md#2311-uri-standard)
       - [23.1.2 HTTPS REST API](./part3.md#2312-https-rest-api)
       - [23.1.3 P2P RPC](./part3.md#2313-p2p-rpc)
-    - [23.2 List Operations](./part3.md#232-list-operations)
-- [Ending](./ending.md)
+    - [23.2 和“列出”有关的操作](./part3.md#232-list-operations)
+- [总结](./ending.md)
 
-## Contribute
+## 参与贡献
 
-1. Clone the repo and checkout a branch
+1. 复制代码库并切换到一个分支
 
   ```shell
   git clone https://github.com/bnb-chain/greenfield-whitepaper.git
   git checkout -b <your-branch-name>
   ```
 
-2. Make your changes
+2. 进行修改
 
-3. Lint files before a pull request
+3. PR之前先检查文件格式
 
   ```shell
   # install markdownlint-cli from https://github.com/igorshubovych/markdownlint-cli
   markdownlint '**/*.md'  -c .github/workflows/markdownlint.yaml
   ```
 
-4. Submit a pull request
+4. 提交PR
 
-## License
+## 许可协议
 
-All the content are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+所有内容均依据 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)授权。
